@@ -2050,7 +2050,7 @@
     prettier "~2.2.1"
     regenerator-runtime "^0.13.7"
 
-"@storybook/theming@6.2.0":
+"@storybook/theming@6.2.0", "@storybook/theming@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.2.0.tgz#03b892de0d2478add91ecc7c56d47ce0d42059fc"
   integrity sha512-BAIfPdUahWLhwwebeYcxziCTQMg/bEgKTO1Rp2MqFVvvHR+bx74cjte4oXiyH1+RVBMmwoKERsvYVrj06XEPAA==
