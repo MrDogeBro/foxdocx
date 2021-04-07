@@ -23,6 +23,17 @@ module.exports = {
         DEFAULT: '$color-accent',
       },
     },
+    spacing: {
+      0: '0px',
+      1: '5px',
+      2: '10px',
+      3: '15px',
+      4: '20px',
+      5: '30px',
+      6: '40px',
+      7: '60px',
+      8: '75px',
+    },
     extend: {
       textColor: {
         menu: {
