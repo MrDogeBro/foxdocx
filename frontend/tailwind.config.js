@@ -2,12 +2,6 @@ module.exports = {
   purge: ['./src/**/*.tsx', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    textColor: {
-      selected: '$color-selected-text',
-    },
-    backgroundColor: {
-      selected: '$color-selected-bg',
-    },
     colors: {
       button: '$color-button-text',
       transparent: 'transparent',
@@ -29,7 +23,14 @@ module.exports = {
         DEFAULT: '$color-accent',
       },
     },
-    extend: {},
+    extend: {
+      textColor: {
+        selected: '$color-selected-text',
+      },
+      backgroundColor: {
+        selected: '$color-selected-bg',
+      },
+    },
   },
   variants: {
     extend: {},
