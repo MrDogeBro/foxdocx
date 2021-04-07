@@ -21,6 +21,8 @@ module.exports = {
       },
       accent: {
         DEFAULT: '$color-accent',
+        hover: '$color-accent-hover',
+        disabled: '$color-accent-disabled',
       },
     },
     spacing: {
