@@ -25,10 +25,14 @@ module.exports = {
     },
     extend: {
       textColor: {
-        selected: '$color-selected-text',
+        menu: {
+          selected: '$color-menu-selected-text',
+        },
       },
       backgroundColor: {
-        selected: '$color-selected-bg',
+        menu: {
+          selected: '$color-menu-selected-bg',
+        },
       },
     },
   },
