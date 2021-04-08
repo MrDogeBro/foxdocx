@@ -39,12 +39,12 @@ module.exports = {
     extend: {
       textColor: {
         menu: {
-          selected: '$color-menu-selected-text',
+          selected: 'var(--color-menu-selected-text)',
         },
       },
       backgroundColor: {
         menu: {
-          selected: '$color-menu-selected-bg',
+          selected: 'var(--color-menu-selected-bg)',
         },
       },
     },
