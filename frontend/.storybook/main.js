@@ -1,3 +1,5 @@
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+
 module.exports = {
   stories: ['../src/stories/**/*.story.@(ts|tsx|js|jsx|mdx)'],
   addons: [
@@ -17,6 +19,7 @@ module.exports = {
       test: /\.scss$/,
       use: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader'],
     });
+    config.resolve.plugins = [new TsconfigPathsPlugin()];
 
     return config;
   },
