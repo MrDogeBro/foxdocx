@@ -3,26 +3,26 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      button: '$color-button-text',
+      button: 'var(--color-button-text)',
       transparent: 'transparent',
       primary: {
-        100: '$color-primary-100',
-        200: '$color-primary-200',
-        300: '$color-primary-300',
-        400: '$color-primary-400',
-        500: '$color-primary-500',
-        600: '$color-primary-600',
-        700: '$color-primary-700',
-        800: '$color-primary-800',
-        900: '$color-primary-900',
+        100: 'var(--color-primary-100)',
+        200: 'var(--color-primary-200)',
+        300: 'var(--color-primary-300)',
+        400: 'var(--color-primary-400)',
+        500: 'var(--color-primary-500)',
+        600: 'var(--color-primary-600)',
+        700: 'var(--color-primary-700)',
+        800: 'var(--color-primary-800)',
+        900: 'var(--color-primary-900)',
       },
       secondary: {
-        DEFAULT: '$color-secondary',
+        DEFAULT: 'var(--color-secondary)',
       },
       accent: {
-        DEFAULT: '$color-accent',
-        hover: '$color-accent-hover',
-        disabled: '$color-accent-disabled',
+        DEFAULT: 'var(--color-accent)',
+        hover: 'var(--color-accent-hover)',
+        disabled: 'var(--color-accent-disabled)',
       },
     },
     spacing: {
