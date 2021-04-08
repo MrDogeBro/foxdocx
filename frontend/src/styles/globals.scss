@@ -1,8 +1,25 @@
-@import "./colors.scss";
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+:root {
+  --color-button-text: #fff;
+  --color-menu-selected-text: #fff;
+  --color-menu-selected-bg: #13171d;
+  --color-primary-100: #d3e5f6;
+  --color-primary-200: #c8ddf1;
+  --color-primary-300: #b6c4d0;
+  --color-primary-400: #a4bacf;
+  --color-primary-500: #71808e;
+  --color-primary-600: #435164;
+  --color-primary-700: #151e29;
+  --color-primary-800: #13171d;
+  --color-primary-900: #0d1014;
+  --color-secondary: #516684;
+  --color-accent: #ff3f3f;
+  --color-accent-hover: #ff5858;
+  --color-accent-disabled: #eab0b0;
+}
 
 html,
 body {
