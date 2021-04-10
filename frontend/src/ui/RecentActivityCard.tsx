@@ -40,8 +40,10 @@ export const RecentActivityCard: React.FC<RecentActivityCardProps> = ({
   let activityString = replaceMultiple(activityTypes[activity], replaceMap);
 
   return (
-    <div>
-      <p>{activityString}</p>
+    <div className="bg-primary-700 flex rounded-md items-center">
+      <p className="text-primary-400 flex py-1 px-2 text-md">
+        {activityString}
+      </p>
     </div>
   );
 };
