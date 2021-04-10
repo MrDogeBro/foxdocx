@@ -1,4 +1,5 @@
 import '../src/styles/globals.scss';
+import '@styles/storybook.scss';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
