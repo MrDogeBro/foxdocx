@@ -16,7 +16,7 @@ export const Created: Story<RecentActivityCardProps> = ({
   time = '14:30',
   activity = 'created',
 }) => (
-  <div>
+  <div className="storybook-w-17">
     <RecentActivityCard
       user={user}
       document={document}
@@ -32,7 +32,7 @@ export const Deleted: Story<RecentActivityCardProps> = ({
   time = '14:30',
   activity = 'deleted',
 }) => (
-  <div>
+  <div className="storybook-w-17">
     <RecentActivityCard
       user={user}
       document={document}
@@ -48,7 +48,7 @@ export const Shared: Story<RecentActivityCardProps> = ({
   time = '14:30',
   activity = 'shared',
 }) => (
-  <div>
+  <div className="storybook-w-17">
     <RecentActivityCard
       user={user}
       document={document}
