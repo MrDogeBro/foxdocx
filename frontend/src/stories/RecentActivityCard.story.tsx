@@ -10,7 +10,7 @@ export default {
   component: RecentActivityCard,
 };
 
-let testDate = new Date(2021, 4, 10, 10, 25, 51, 0);
+let testDate = new Date(2021, 4, 10, 10, 25, 51, 0).toISOString();
 
 export const Created: Story<RecentActivityCardProps> = ({
   user = { id: 'test', username: 'Test User' },

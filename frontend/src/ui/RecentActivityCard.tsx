@@ -20,7 +20,7 @@ type DocumentProps = {
 export type RecentActivityCardProps = {
   user: UserProps;
   document: DocumentProps;
-  date: Date;
+  date: string;
   activity: keyof typeof activityTypes;
   onClick?: () => void;
 };
