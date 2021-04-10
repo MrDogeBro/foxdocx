@@ -41,6 +41,9 @@ module.exports = {
         menu: {
           selected: 'var(--color-menu-selected-text)',
         },
+        secondary: {
+          text: 'var(--color-secondary-text)',
+        },
       },
       backgroundColor: {
         menu: {
