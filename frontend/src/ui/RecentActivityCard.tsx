@@ -20,7 +20,7 @@ type DocumentProps = {
 export type RecentActivityCardProps = {
   user: UserProps;
   document: DocumentProps;
-  time: string;
+  date: Date;
   activity: keyof typeof activityTypes;
   onClick?: () => void;
 };
@@ -28,7 +28,7 @@ export type RecentActivityCardProps = {
 export const RecentActivityCard: React.FC<RecentActivityCardProps> = ({
   user,
   document,
-  time,
+  date,
   activity,
   onClick,
 }) => {
