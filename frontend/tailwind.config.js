@@ -2,6 +2,17 @@ module.exports = {
   purge: ['./src/**/*.tsx', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: [
+        'Roboto',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        'Segoe UI',
+        'Helvetica',
+        'Arial',
+        'sans-serif',
+      ],
+    },
     colors: {
       button: 'var(--color-button-text)',
       transparent: 'transparent',
