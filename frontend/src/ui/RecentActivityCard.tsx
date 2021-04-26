@@ -62,11 +62,13 @@ export const RecentActivityCard: React.FC<RecentActivityCardProps> = ({
   let formattedTimestamp = formatTimestamp(date);
 
   return (
-    <div className="bg-primary-700 flex rounded-md items-center">
-      <p className="text-primary-400 flex py-1 px-2 text-md">
+    <div className="bg-primary-700 flex rounded-md items-start">
+      <p className="text-primary-400 py-1 px-2 text-md font-sans font-medium">
         {activityString}
-        {formattedTimestamp}
       </p>
+      <span className="text-secondary-text py-1 px-2 ml-auto text-sm font-sans font-medium relative top-0 whitespace-nowrap">
+        {formattedTimestamp}
+      </span>
     </div>
   );
 };
